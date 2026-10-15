@@ -15,4 +15,4 @@ Only needed to build an APK, not to work in the editor.
 1. Visual Studio with the C++ toolchain (the PICO plugin is compiled for Android at packaging time)
 2. Android Studio, then run `Engine\Extras\Android\SetupAndroid.bat` from the UE 5.6 install folder
 3. Set the SDK, NDK and Java paths in `Project Settings > Platforms > Android SDK`
-4. Set a unique Android Package Name in `Project Settings > Platforms > Android`
+4. The Android package name (`com.p10.throwandliberty`) is already set in `Config/DefaultEngine.ini`, do not change it
